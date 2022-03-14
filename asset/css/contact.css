@@ -1,0 +1,94 @@
+.contact {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 2px solid var(--color-red);
+}
+
+.contact-container {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-title {
+    margin: 42px 0;
+}
+
+.contact-title p {
+    font-size: 24px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-container form {
+    width: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    display: flex;
+    border-radius: 20px;
+}
+
+.contact-container form input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    flex-grow: 4;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.contact-container form button {
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: var(--color-red);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid var(--color-red);
+    transition: all 0.5s linear;
+}
+
+.contact-container form button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.contact-social {
+    margin: 32px 0;
+}
+
+.contact-social ul {
+    display: flex;
+}
+
+.contact-social ul li {
+    margin: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    transition: all 0.5s linear;
+}
+
+.contact-social ul li a i {
+    color: #2b2d42;
+}
+
+.contact-social ul li:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.contact-social ul li:hover i {
+    color: red;
+}
